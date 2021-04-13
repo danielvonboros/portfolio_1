@@ -1,9 +1,6 @@
 /*** CSS VARIABLES ***/
 
 :root {
-  --primary-color: #357b70;
-  --secondary-color: #e0b354;
-  --dark-grey: #2b2b2b;
   --primary-background-color: rgba(95, 158, 160, 0.1);
   --primary-text-color: #304f50;
   --anchor-color: #008b8b;
@@ -24,7 +21,6 @@
 
   --big-heading-size: 26px;
   --big-heading-size-small-screen: 22px;
-
 }
 
 /**** ELEMENT SELECTORS ****/
@@ -32,6 +28,7 @@
 a {
   color: var(--primary-color);
 }
+
 * {
   box-sizing: border-box;
 }
