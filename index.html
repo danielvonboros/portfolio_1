@@ -3,66 +3,70 @@
 
 <head>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Quicksand:wght@300;500&family=Roboto:wght@300;400&family=Spartan:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./mat/favicon.ico">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link rel="stylesheet" href="./css/style.production.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Daniel von Boros Coding Portfolio</title>
 </head>
 
 <body>
-  <header class="page-header">
-    <img class="logo" src="./img/dvblogo.png" alt="logo">
-    <nav class="main-navigation page-header__item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" role="menuitem" class="navigation-list__item">
-            Home
-          </a>
-        </li>
-        <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item">
-            Work
-          </a>
-        </li>
-        <li role="presentation">
-          <a href="about.html" role="menuitem" class="navigation-list__item">
-            About
-          </a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem" class="navigation-list__item">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <header class="page-header">
+      <img class="logo" src="./img/dvblogo.png" alt="logo">
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem">
+              Home
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem">
+              Work
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem">
+              About
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <main class="profile">
-    <img class="profile__portrait" src="./img/daniel.jpeg" width=200px style="border-radius:100%" alt="Daniel von Boros Portrait">
-    <div class="profile__description">
-      <h3 class="profile__heading animate__animated animate__fadeInDown">My name is Daniel von Boros</h3>
-      <p>I will soon be a <span class="exampleCode">Web</span> Developer and I'm from Berlin!</p>
-      <a href="https://www.github.com/danielvonboros">Check out some of my code</a>
+    <main class="profile">
+      <img class="profile__portrait" src="./img/daniel.jpeg" width=200 style="border-radius:100%" alt="Daniel von Boros Portrait">
+      <div class="profile__description">
+        <h3 class="profile__heading animate__animated animate__fadeInDown">My name is <span class="profile__heading-bold">Daniel von Boros</span></h3>
+        <p>I will soon be a <span class="examplecode">&lt;Web&gt;</span> Developer and I'm from Berlin!</p>
+        <a href="https://www.github.com/danielvonboros">Check out some of my code</a>
+      </div>
+    </main>
+
     </div>
-  </main>
 
-  <footer class="page_footer">
-    <p>Find me on</p>
-    <div class="social-media">
-      <a href="https://github.com/danielvonboros"><img class="footer__social-icons" src="./img/github.svg" alt="Github"></a>
-      <a href="https://www.twitter.com"><img class="footer__social-icons" src="./img/twitter-icon.svg" alt="Twitter"></a>
-      <a href="https://www.linkedin.com/in/daniel-von-boros-92878a186/"><img class="footer__social-icons" src="./img/linkedin.svg" alt="LinkedIn"></a>
-</div>
+    <footer class="page_footer_relative">
+      <div class="page_footer_absolute">
+        <p>Find me on</p>
+        <div class="social_media">
+          <a href="https://github.com/danielvonboros"><img class="footer__social-icons" src="./img/github.svg" alt="Github"></a>
+          <a href="https://www.twitter.com"><img class="footer__social-icons" src="./img/twitter-icon.svg" alt="Twitter"></a>
+          <a href="https://www.linkedin.com/in/daniel-von-boros-92878a186/"><img class="footer__social-icons" src="./img/linkedin.svg" alt="LinkedIn"></a>
+        </div>
+      </div>
     </footer>
 
+    <script src="js/tota11y.min.js"></script>
 
-  <script src="js/tota11y.min.js"></script>
 </body>
 
 </html>
