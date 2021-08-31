@@ -1,71 +1,330 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Quicksand:wght@300;500&family=Roboto:wght@300;400&family=Spartan:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="./mat/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Daniel von Boros Coding Portfolio</title>
+  <title>Daniel von Boros</title>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- CUSTOM PERSONAL STYLESHEET -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&family=Dosis:wght@300;500;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/52809c8829.js" crossorigin="anonymous"></script>
+
+  <!-- JS AND JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <div class="container">
-    <header class="page-header">
-      <img class="logo" src="./img/dvblogo.png" alt="logo">
-      <nav class="page-header__item">
-        <ul role="menubar" class="navigation-list">
-          <li role="presentation">
-            <a href="index.html" role="menuitem">
-              Home
-            </a>
-          </li>
-          <li role="presentation">
-            <a href="work.html" role="menuitem">
-              Work
-            </a>
-          </li>
-          <li role="presentation">
-            <a href="about.html" role="menuitem">
-              About
-            </a>
-          </li>
-          <li role="presentation">
-            <a href="contact.html" role="menuitem">
-              Contact
-            </a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand brand-text">Daniel von Boros</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="navitem">
+              <a class="nav-link" href="#footer">About me</a>
+            </li>
+            <li class="navitem">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="navitem">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </header>
+      
+      <section class="title-section" id="title"></section>
+    <div class="container-fluid title-section">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Daniel von Boros</h1>
+          <h2 class="sub-heading">Web Development</h2>
+          <h3 class="sub-heading-list">React</h3>
+          <h3 class="sub-heading-list">JavaScript</h3>
+          <h3 class="sub-heading-list">CSS</h3>
+          <h3 class="sub-heading-list">HTML</h3>
 
-    <main class="profile">
-      <img class="profile__portrait" src="./img/daniel.jpeg" width=200 style="border-radius:100%" alt="Daniel von Boros Portrait">
-      <div class="profile__description">
-        <h3 class="profile__heading animate__animated animate__fadeInDown">My name is <span class="profile__heading-bold">Daniel von Boros</span></h3>
-        <p>I will soon be a <span class="examplecode">&lt;Web&gt;</span> Developer and I'm from Berlin!</p>
-        <a href="https://www.github.com/danielvonboros">Check out some of my code</a>
-      </div>
-    </main>
 
-    </div>
-
-    <footer class="page_footer_relative">
-      <div class="page_footer_absolute">
-        <p>Find me on</p>
-        <div class="social_media">
-          <a href="https://github.com/danielvonboros"><img class="footer__social-icons" src="./img/github.svg" alt="Github"></a>
-          <a href="https://www.twitter.com"><img class="footer__social-icons" src="./img/twitter-icon.svg" alt="Twitter"></a>
-          <a href="https://www.linkedin.com/in/daniel-von-boros-92878a186/"><img class="footer__social-icons" src="./img/linkedin.svg" alt="LinkedIn"></a>
+          <button type="button" class="btn btn-dark btn-lg download-button"><span class="fas fa-desktop"></span> See the projects</button>
+          <a class="social-buttons" href='mailto:danielvonboros@gmail.com?&subject=Contact%20via%20portfolio%20page&body=Sent%20via%20Contact%20Button%20on%20website'><button type="button" class="btn btn-outline-dark btn-lg download-button"><span class="fas fa-envelope"></span> Get in touch</button></a>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="mat/IMG_2683.jpeg" alt="dvb_portrait">
         </div>
       </div>
-    </footer>
 
-    <script src="js/tota11y.min.js"></script>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="features">
+    <div class="container-fluid icon-container colored-section">
+      <div class="row">
+        <div class="col-lg-4 text-sec2">
+          <span class="fas fa-code icon-sec2"></span>
+          <h3>Coding.</h3>
+          <p>Check out some of my code</p>
+        </div>
+        <div class="col-lg-4 text-sec2">
+          <span class="fas fa-desktop icon-sec2"></span>
+          <h3>Desktop Projects</h3>
+          <p>Check out some of my projects for desktop devices</p>
+        </div>
+        <div class="col-lg-4 text-sec2">
+          <span class="fas fa-mobile-alt icon-sec2"></span>
+          <h3>Mobile Projects</h3>
+          <p>Check out my mobile projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id='projects' class="projects white-section">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item container-fluid active">
+          <img src="./mat/AC3/AC3-1.png" class="d-block w-100" alt="AC3">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>filmOpedia</h3>
+            <p>Movie Database based on custom API</p>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img src="./mat/AC4/AC4-1.png" class="d-block w-100" alt="AC3">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>meet App</h3>
+            <p>TDD driven Google Calendar API app</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <div class='placeholder'></div>
+
+
+
+
+
+  </section>
+
+  <section class="container-fluid white-section projects">
+    <div class="row">
+    <div class="card col-lg-3" style="width: 18rem;">
+      <div class="card-body">
+        <img class="card-title-logo-1" src="./mat/AC2/pokedexLogo.png" alt="pokedexLogo">
+        <h6 class="card-subtitle">pokéDex App <span class="fab fa-js-square"></span> <span class="fab fa-bootstrap"></span></h6>
+        <p class="card-text">JavaScript Single Page app based on the PokeAPI. Styled with Bootstrap. Pokedex Application</p>
+        <a href="#" class="card-link">Project Description</a>
+        <a href="https://github.com/danielvonboros/pokeDex" target="_blank" class="card-link">Code</a>
+      </div>
+    </div>
+    <div class="card col-lg-3" style="width: 18rem;">
+      <div class="card-body">
+        <img class="card-title-logo-2" src="./mat/AC3/filmopediaLogo.png" alt="filmopediaLogo">
+        <h6 class="card-subtitle">filmOpedia App <span class="fab fa-react"></span> <span class="fab fa-bootstrap"></span></h6>
+        <p class="card-text">React Application built using the MERN Stack. Styled with Bootstrap. Movie Database</p>
+        <a href="#" class="card-link">Project Description</a>
+        <a href="https://github.com/danielvonboros/filmOpedia" target="_blank" class="card-link">Code</a>
+        <hr>
+        <a href="https://filmopedia-client.netlify.app" class="card-link" target="_blank"><b>Get me there</b></a> 
+      </div>
+    </div>
+    <div class="card col-lg-3" style="width: 18rem;">
+      <div class="card-body">
+        <img class="card-title-logo-2" src="./mat/AC4/meetLogo.png" alt="meetLogo">
+        <h6 class="card-subtitle">Meet App <span class="fab fa-react"></span></h6>
+        <p class="card-text">Serverless TDD React App built with the Google Calendar API. Coding Events calendar</p>
+        <a href="#" class="card-link">Project Description</a>
+        <a href="https://github.com/danielvonboros/meet" target="_blank" class="card-link">Code</a>
+        <hr>
+        <a href="https://danielvonboros.github.io/meet" class="card-link" target="_blank"><b>Get me there</b></a> 
+      </div>
+    </div>
+    <div class="card col-lg-3" style="width: 18rem;">
+      <div class="card-body">
+        <img class="card-title-logo-2" src="./mat/AC3/filmopediaLogo.png" alt="filmopediaLogo">
+        <h6 class="card-subtitle">filmOpedia App <span class="fab fa-angular"></span> Angular</h6>
+        <p class="card-text">Angular Application built using the MEAN stack. Movie Database</p>
+        <a href="#" class="card-link">Project Description</a>
+        <a href="#" class="card-link">Code</a>
+      </div>
+    </div>
+    <div class="card col-lg-3" style="width: 18rem;">
+      <div class="card-body">
+        <img class="card-title-logo-1" src="./mat/AC5/talkLogo.png" alt="talkLogo">
+        <h6 class="card-subtitle">talk App <span class="fab fa-react"></span><span class="fas fa-mobile-alt"></span></h6>
+        <p class="card-text">React Native Application built with Expo. Chat Application</p>
+        <a href="#" class="card-link">Project Description</a>
+        <a href="https://github.com/danielvonboros/talk" target="_blank" class="card-link">Code</a>
+      </div>
+    </div>
+    <div class="card col-lg-3" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title card-heading">Work in Progress <span class="fas fa-cogs"></span></h5>
+        <h6 class="card-subtitle">More information soon</h6>
+        <p class="card-text">description</p>
+        <a href="#" class="card-link">Project Description</a>
+        <a href="#" class="card-link">Code</a>
+      </div>
+    </div>
+    <div class="card col-lg-3" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title card-heading">Work in Progress <span class="fas fa-cogs"></span></h5>
+        <h6 class="card-subtitle">More information soon</h6>
+        <p class="card-text">description</p>
+        <a href="#" class="card-link">Project Description</a>
+        <a href="#" class="card-link">Code</a>     
+      </div>
+    </div>
+    <div class="card col-lg-3" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title card-heading">Work in Progress <span class="fas fa-cogs"></span></h5>
+        <h6 class="card-subtitle">More information soon</h6>
+        <p class="card-text">description</p>
+        <a href="#" class="card-link">Project Description</a>
+        <a href="#" class="card-link">Code</a>
+      </div>
+    </div>
+  </div>
+  <div class='placeholder'></div>
+  <button class="btn btn-dark">See all projects</button> 
+  <a href='https://github.com/danielvonboros' target='_blank'><button class="btn btn-outline-dark" >Visit GitHub for the code</button></a>
+  </section>
+
+
+  <!-- Press -->
+
+  
+
+
+  <!-- Pricing -->
+
+  <section class="title-section" id="pricing">
+<!-- 
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="card-deck row pricing">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text"><span class="fas fa-dollar-sign"></span> 0.00 / mo.</h2>
+            <hr>
+            <p> </p>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-lg btn-outline-dark btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text"><span class="fas fa-dollar-sign"></span> 4.99 / mo</h2>
+            <hr>
+            <p> </p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-lg btn-dark btn-block">Sign Up</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text"><span class="fas fa-dollar-sign"></span> 9.99 / mo</h2>
+            <hr>
+            <p>Priority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-lg btn-dark btn-block">Sign Up</button>
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section container-fluid icon-section" id="cta">
+    <div class="row">
+    <div class="col-lg-6 text-sec2">
+      <a class="cta-link" href=""><span class="cta-link far fa-file icon-sec3"></span>
+      <h3>My CV</h3>
+      <p>Find a copy of my CV here</p></a>
+    </div>
+    <div class="col-lg-6 text-sec2">
+      <a class="cta-link "href="mailto:danielvonboros@gmail.com?&subject=Contact%20via%20portfolio%20page&body=Sent%20via%20Contact%20Button%20on%20website"><span class="cta-link fas fa-envelope icon-sec3"></span>
+      <h3>Contact me</h3>
+      <p>Get in touch</p></a>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="container-fluid">
+      <br>
+      <h3>social</h3>
+      <br>
+      <a class="social-buttons" href='https://linkedin.com/in/daniel-von-boros-92878a186' target='_blank'><span class="double-size-icon fab fa-linkedin"></span></a>
+      <span style="color: lightgrey;" class="double-size-icon fab fa-xing-square"></span>
+      <a class="social-buttons" href='https://github.com/danielvonboros' target='_blank'><span class="double-size-icon fab fa-github"></span></a>
+      <a class="social-buttons" href="https://www.instagram.com/dnlsrb/" target="_blank"><span class="double-size-icon fab fa-instagram"></span></a>
+      <a class="social-buttons" href='mailto:danielvonboros@gmail.com?&subject=Contact%20via%20portfolio%20page&body=Sent%20via%20Contact%20Button%20on%20website'><span class="double-size-icon fas fa-envelope"></span></a>
+      <br>
+      <br>
+      <p>© Copyright 2021 Daniel von Boros</p>
+    </div>
+  </footer>
+
 
 </body>
 

@@ -1,311 +1,297 @@
-/**** ELEMENT SELECTORS ****/
-a {
-  color: #304f50;
-}
-
-* {
-  box-sizing: border-box;
-}
+/************ TAG SELECTORS ************/
 
 body {
-  font-family: 'Lexend', sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  background-color: #f2f2f2;
-  color: #304f50;
-  line-height: 1.8;
-}
-
-nav {
-  text-align: right;
-}
-
-header, main, footer, div {
+  font-family: "Dosis", sans-serif;
   text-align: center;
-}
-
-h1 {
-  font-size: 24px;
-  text-align: center;
-}
-
-a {
-  color: #008b8b;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #00ff7f;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:active {
-  color: #00ff7f;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #6495ed;
-}
-
-/**** CLASS SELECTORS ****/
-.container {
-  min-height: 87vh;
-  max-width: 1100px;
-  margin: 0 auto;
-  background-color: #d0d0d0;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-.skills-table {
-  margin: 0 auto;
-}
-
-.examplecode {
-  background-color: #000;
-  color: lightgreen;
-}
-
-/*** HEADER SECTION ***/
-.page-header {
-  display: flex;
-  padding: 20px;
-  background-color: #303036;
-  color: #d3d3d3;
-}
-
-.page-header__item {
-  flex: 0 1 150px;
-}
-
-.page-header__item:last-child {
-  text-align: right;
-  flex-grow: 1;
-}
-
-.navigation-list {
-  list-style-type: none;
-  margin-top: 10px;
-}
-
-.navigation-list li {
-  display: inline-block;
-  margin: 5px 10px 0 10px;
-}
-
-.logo {
-  height: 65px;
-  margin-top: 3px;
-}
-
-/*** PROFILE SECTION ***/
-.profile {
-  max-width: 700px;
-  margin: 15% auto;
-}
-
-.profile__portrait {
-  float: left;
-  margin-right: 40px;
-}
-
-.profile__heading {
-  font-family: Spartan, sans-serif, monospace;
   font-weight: 300;
-  font-size: 30px;
 }
 
-.profile__heading-bold {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+/*********** CLASS SELECTORS ***********/
+
+/**************** COLORS ***************/
+/*
+.colors {
+  /*PALETTE*/
+/*
+  background-color: #f72684;
+  background-color: #7209b7;
+  background-color: #3a0ca3;
+  background-color: #4361ee;
+  background-color: #4cc9f0;
+  */
+
+/* SHADES */
+/*
+  background-color: #f72684;
+  background-color: #fed8e9;
+  background-color: #4f0325;
+
+  background-color: #7209b7;
+  background-color: #eed8fd;
+  background-color: #30044e;
+
+  background-color: #3a0ca3;
+  background-color: #e4d9fc;
+  background-color: #1b064c;
+
+  background-color: #4361ee;
+  background-color: #dae0fc;
+  background-color: #07134b;
+
+  background-color: #4cc9f0;
+  background-color: #d9f4fc;
+  background-color: #063b4b;
+
+  background-color: #ecf9fd;
+  background-color: #aac8c1;
+  background-color: #6d7a96;
+  background-color: #4d576b;
+  background-color: #56435e;
+  background-color: #2a2827;
+  */
+/*}
+*/
+/*********** GENERAL CLASSES ************/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.download-button {
+  font-size: 1.25rem;
   font-weight: 500;
+  margin: 5% 3% 5% 0;
 }
 
-.profile__description {
-  text-align: left;
-  padding-bottom: 10rem;
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-/*** CONTACT FORM ***/
-.contact__table {
-  clear: both;
-  margin: 0 auto;
+.navbar {
+  background-color: #1b064c;
+  color: #feebf4;
+  width: 100%;
 }
 
-.contact__submit-button {
-  background-color: #008b8b;
-  color: #fff;
-  border: 1px solid white;
-  border-radius: 10px;
-  padding: 0.5em;
-  font-size: 16px;
+.title-section {
+  background-color: #fff;
+  color: #1b064c;
 }
 
-.contact__submit-button:hover {
-  opacity: 0.8;
-  cursor: pointer;
-  transition-duration: 0.4s;
+.colored-section {
+  background-color: #1b064c;
+  color: #f72684;
 }
 
-.your_message {
-  max-width: 174px;
+.white-section {
+  background-color: #fff;
 }
 
-/*** WORK EXPERIENCE ***/
-.grid {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 300px 300px;
-  width: 90%;
-  margin: 0 auto;
+.placeholder {
+  height: 1em;
+  width: 3em;
 }
 
-/*** FOOTER SECTION ***/
-.page_footer_absolute {
+/************ TITLE SECTION *************/
+
+.brand-text {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  padding: 1% 3% 0;
+}
+
+.navitem {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.title-image {
+  width: 70%;
+
   position: absolute;
-  margin: 0 auto;
-  line-height: 1.2;
-  left: 0;
-  right: 0;
-  max-width: 1100px;
-  background-color: #303036;
-  color: #d3d3d3;
+  right: 27%;
 }
 
-.page_footer_relative {
-  margin: 0 auto;
-  bottom: 0;
-  line-height: 1.2;
-  max-height: 125px;
-  background-color: #303036;
-  color: #d3d3d3;
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-.social_media {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.sub-heading {
+  font-size: 2.5rem;
+  line-height: 1;
 }
 
-.footer__social-icons {
-  padding: 0.25em;
+.sub-heading-list {
+  font-size: 2 rem;
+  line-height: 1;
+  font-weight: 300;
 }
 
-  path {
-    fill: white;
+@media (max-width: 1028px) {
+  .title {
+    text-align: center;
   }
 
-
-/*** MEDIA QUERIES ***/
-@media all and (max-width: 500px) {
-  .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-  }
-
-  .grid__item:last-child {
-    grid-column: auto / auto;
-    grid-row: auto / auto;
-  }
-
-  h1 {
-    font-size: 22px;
+  .title-image {
+    position: static;
+    transform: rotate(0);
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-  }
-
-  .grid__item:last-child {
-    grid-column: auto / auto;
-    grid-row: auto / auto;
-  }
-
-  h1 {
-    font-size: 22px;
-  }
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
-/*** ANIMATIONS ***/
-@keyframes color-change-2 {
-  from {
-    fill: #EDC655;
-  }
+/************ ICON SECTION **************/
 
-  to {
-    fill: #0000cc;
-  }
+.icon-container {
+  position: relative;
 }
 
-@keyframes color-change {
-  from {
-    fill: #D64A4A;
-  }
-
-  to {
-    fill: #4d004d;
-  }
+.icon-sec2 {
+  font-size: 6rem;
+  color: #f72684;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
+.icon-sec2:hover {
+  color: #fff;
 }
 
-@keyframes cloud-move-2 {
-  from {
-    transform: translate(500px, 20px);
-  }
-
-  to {
-    transform: translate(300px, 20px);
-  }
+.text-sec2 {
+  padding: 70px 1.5% 50px 1.5%;
 }
 
-.sun {
-  animation-duration: 7s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+/********* CAROUSEL SECTION *********/
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 150px;
 }
 
-.sun-beam {
-  animation-duration: 7s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.yellowish-beam {
-  animation-duration: 7s;
-  animation-name: color-change-2;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+.press {
+  padding-bottom: 3%;
 }
 
-.cloud-front {
-  animation-duration: 28s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+.reference-img {
+  width: 13%;
+  padding: 20px 10px 50px;
 }
 
-.cloud-back {
-  animation-duration: 35s;
-  animation-name: cloud-move-2;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+/*********** PROJECTS SECTION ************/
+
+.card {
+  background-color: #eceffd;
+  color: #1b064c;
 }
+
+.card-title-logo-1 {
+  max-height: 50px;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+.card-title-logo-2 {
+  max-height: 50px;
+  padding-bottom: 10px;
+}
+
+.card-subtitle {
+  color: #7209b7;
+}
+
+.card a {
+  color: #f72684;
+}
+
+/*********** PRICING SECTION ************/
+
+.fa-dollar-sign {
+  color: #ef8172;
+  width: 1.5rem;
+}
+
+.card-body {
+  height: 330px;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  margin: 7% 4% 10% 4%;
+}
+
+/************* CTA SECTION **************/
+
+.cta-link {
+  color: #f72684;
+}
+
+.cta-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon-sec3 {
+  font-size: 6rem;
+  color: #f72684;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+/*********** FOOTER SECTION *************/
+
+.double-size-icon {
+  width: 3%;
+}
+
+#footer {
+  padding-bottom: 0;
+}
+
+#footer .container-fluid {
+  padding: 15% 7% 0 7%;
+}
+
+.social-buttons {
+  color: #1b064c;
+}
+
+.social-buttons:active {
+  color: #3a0ca3;
+}
+
+.social-buttons:hover {
+  color: #f72684;
+}
+
+/************ ID SELECTORS *************/
