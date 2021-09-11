@@ -385,11 +385,13 @@ h6 {
   h4,
   h5,
   h6,
-  p {
+  p,
+  a {
     font-size: 2rem;
   }
 
   .double-size-icon {
+    font-size: 3rem;
     width: 10%;
   }
 }
