@@ -219,6 +219,20 @@ h6 {
   color: #1b064c;
 }
 
+.stack-icon {
+  max-height: 40px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.stack-icon-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
 /********* CAROUSEL SECTION *********/
 
 .testimonial-image {
