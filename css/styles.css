@@ -102,6 +102,15 @@ h6 {
   width: 3em;
 }
 
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1b064c;
+  color: #f72684;
+  border-radius: 50%;
+}
+
 /*********** NAVBAR SECTION *************/
 
 .navbar {
