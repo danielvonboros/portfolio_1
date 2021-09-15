@@ -173,6 +173,10 @@ h6 {
   text-align: left;
 }
 
+.double-size-icon-top {
+  font-size: 1em;
+}
+
 /************ ICON SECTION **************/
 
 .iconsec-fluid {
@@ -230,38 +234,20 @@ h6 {
 
 .stack-icon {
   max-height: 40px;
-  margin-left: 10px;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
-.stack-icon-container {
+.stack-icons-container {
+  margin: 0 10%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
+  justify-self: center;
 }
 
-/********* CAROUSEL SECTION *********/
-
-.testimonial-image {
-  border-radius: 100%;
-  width: 150px;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.press {
-  padding-bottom: 3%;
-}
-
-.reference-img {
-  width: 13%;
-  padding: 20px 10px 50px;
-}
 /*********** PROJECTS SECTION ************/
 
 .projects {
@@ -394,6 +380,16 @@ h6 {
   .title-image {
     position: static;
     width: 50%;
+  }
+
+  .stack-icons-container {
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
   }
 
   .card-grid {
