@@ -109,6 +109,8 @@ h6 {
   background-color: #1b064c;
   color: #f72684;
   border-radius: 50%;
+  z-index: 0;
+  border: solid 1px white;
 }
 
 /*********** NAVBAR SECTION *************/
@@ -124,6 +126,10 @@ h6 {
 }
 
 /************ TITLE SECTION *************/
+
+.container-fluid-top {
+  padding: 10% 12% 17%;
+}
 
 .brand-text {
   font-size: 2rem;
@@ -168,11 +174,6 @@ h6 {
   font-weight: 300;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
-  text-align: left;
-}
-
 .double-size-icon-top {
   font-size: 1em;
 }
@@ -204,9 +205,13 @@ h6 {
 
 .text-pink {
   color: #f72684;
+}
+
+.button-label {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 80px;
 }
 
 .card-body-blue {
@@ -306,10 +311,36 @@ h6 {
   color: #f72684;
 }
 
+.card-link:hover {
+  cursor: pointer;
+}
+
 /*********** PROJECT SECTION ************/
 
-.card-body {
-  background-color: black;
+.modal-header-darkblue {
+  background-color: #1b064c;
+  color: #f72684;
+  text-align: center;
+}
+
+.closebutton-pink {
+  color: #f72684;
+}
+
+.card {
+  background-color: #eceffd;
+}
+
+.card-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.card-white {
+  background-color: white;
 }
 
 .cardheader-darkblue {
@@ -322,8 +353,28 @@ h6 {
   padding-bottom: 15px;
 }
 
+.modal-body {
+  background-color: black;
+}
+
+.modal-background-text {
+  background-color: white;
+  width: 100%;
+  color: #1b064c;
+}
+
+.modal-card-footer {
+  width: 100%;
+  background-color: white;
+  color: #1b064c;
+}
+
 .btn-margin-top {
   margin-top: 30px;
+}
+
+.modal-footer {
+  background-color: white;
 }
 
 /************* CTA SECTION **************/
@@ -372,7 +423,7 @@ h6 {
 
 /************ ID SELECTORS *************/
 
-@media (max-width: 1028px) {
+@media (max-width: 800px) {
   .title {
     text-align: center;
   }
@@ -396,6 +447,11 @@ h6 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .card-projects {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
   }
 
   h1,

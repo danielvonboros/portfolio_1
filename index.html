@@ -1,623 +1,1578 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Daniel von Boros</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Daniel von Boros</title>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
 
-  <!-- BOOTSTRAP -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- CUSTOM PERSONAL STYLESHEET -->
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- CUSTOM PERSONAL STYLESHEET -->
-  <link rel="stylesheet" href="css/styles.css">
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&family=Dosis:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/52809c8829.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&family=Dosis:wght@300;500;600&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/52809c8829.js" crossorigin="anonymous"></script>
-  
+    <!-- BOOTSTRAP JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <!-- BOOTSTRAP JS  -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-      <nav class="navbar navbar-expand-lg navbar-dark" id='navbar'>
-        <a class="navbar-brand brand-text">daniel von boros</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <span class='top-nav'></span>
-        <div class="navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#features">About me</a>
-            </li>
-            <li class="navitem">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="navitem">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      
-      <section class="title-section" id="title"></section>
-    <div class="container-fluid title-section">
-      <div class="row">
-        <div class="col-lg-6">
-          <h1 class="big-heading">Daniel von Boros</h1>
-          <h2 class="sub-heading">...</h2>
-          <h3 class="sub-heading-list">Hi, my name is Daniel</h3>
-          <h3 class="sub-heading-list">and I'm a <span class='web-code'>&lt;web&gt;</span> developer</h3>
-          <h3 class="sub-heading-list">based in Berlin, Germany.</h3>
-          <h3 class="sub-heading-list">...</h3>
-          <h3 class="sub-heading-list">Check out my code </h3>
-          <h3 class="sub-heading-list">or get in touch</h3>
-
-
-          <a class="social-buttons" href="#projects"><button type="button" class="btn btn-dark btn-lg download-button"><span class="fas fa-desktop"></span> See the projects</button></a>
-          <a class="social-buttons" href='mailto:danielvonboros@gmail.com?&subject=Contact%20via%20portfolio%20page&body=Sent%20via%20Contact%20Button%20on%20website'><button type="button" class="btn btn-outline-dark btn-lg download-button"><span class="fas fa-envelope"></span> Get in touch</button></a>
-          <a class="social-buttons" href='https://linkedin.com/in/daniel-von-boros-92878a186' target='_blank'><button class='btn btn-dark btn-lg'><span class="double-size-icon-top fab fa-linkedin"></span>    </button></a>
-        </div>
-        <div class="col-lg-6">
-          <div class="background-div-pink"></div>
-          <img class="title-image" src="mat/profile_pic_webpage_2.png" alt="dvb_portrait">
-          <div class="background-div-blue"></div>
-        </div>
-      </div>
-
-        
-
-    </div>
-  </section>
-
-
-  <!-- Features -->
-
-  <section class="features" id='features'>
-    
-    <div class="iconsec-fluid icon-container colored-section">
-    <div class="accordion-item">
-      <div class='accordion-header cardheader-darkblue' id='headingEight'>
-          <div class="d-grid gap-2">
-          <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-            <h4 class="text-pink">Tech stack</h4>>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+      <a class="navbar-brand brand-text">daniel von boros</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
+      <span class="top-nav"></span>
+      <div class="navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">About me</a>
+          </li>
+          <li class="navitem">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="navitem">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
       </div>
-      <div id="collapseEight" class="accordion-collapse collapse show" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-        <div class="card-body-blue">
-           <div class="stack-icons-container">
-                <img class="stack-icon" src="mat/stack/html_p.png" alt="HTML 5" />
-                <img class="stack-icon" src="mat/stack/css_p.png" alt="CSS 3" />
-                <img class="stack-icon" src="mat/stack/js_p.png" alt="JavaScript" />
-                <img class="stack-icon" src="mat/stack/nodejs_p.png" alt="nodeJS" />
-                <img class="stack-icon" src="mat/stack/bootstrap_p.png" alt="Bootstrap" />
-                <img class="stack-icon" src="mat/stack/expressjs_p.png" alt="expressJS" />
-                <img class="stack-icon" src="mat/stack/mongodb_p.png" alt="mongoDB" />
-                <img class="stack-icon" src="mat/stack/jquery_p.png" alt="jQuery" />
-                <img class="stack-icon" src="mat/stack/react_p.png" alt="reactJS" />
-                <img class="stack-icon" src="mat/stack/angular_p.png" alt="Angular" />
-                <img class="stack-icon" src="mat/stack/ts_p.png" alt="TypeScript" />
-                <img class="stack-icon" src="mat/stack/mat_ui_p.png" alt="Material UI" />
-                <img class="stack-icon" src="mat/stack/git_p.png" alt="git" />
-                <img class="stack-icon" src="mat/stack/heroku_p.png" alt="Heroku" />
-                <img class="stack-icon" src="mat/stack/netlify_p.png" alt="netlify" />
-              </div>
-            </div>
+    </nav>
+
+    <!-- TITLE -->
+
+    <section class="title-section" id="title">
+      <div class="container-fluid-top title-section">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">Daniel von Boros</h1>
+            <h2 class="sub-heading">...</h2>
+            <h3 class="sub-heading-list">Hi, my name is Daniel</h3>
+            <h3 class="sub-heading-list">
+              and I'm a <span class="web-code">&lt;web&gt;</span> developer
+            </h3>
+            <h3 class="sub-heading-list">based in Berlin, Germany.</h3>
+            <h3 class="sub-heading-list">...</h3>
+            <h3 class="sub-heading-list">Check out my code</h3>
+            <h3 class="sub-heading-list">or get in touch</h3>
+
+            <a class="social-buttons" href="#projects"
+              ><button
+                type="button"
+                class="btn btn-dark btn-lg download-button"
+              >
+                <span class="fas fa-desktop"></span> See the projects
+              </button></a
+            >
+            <a
+              class="social-buttons"
+              href="mailto:danielvonboros@gmail.com?&subject=Contact%20via%20portfolio%20page&body=Sent%20via%20Contact%20Button%20on%20website"
+              ><button
+                type="button"
+                class="btn btn-outline-dark btn-lg download-button"
+              >
+                <span class="fas fa-envelope"></span> Get in touch
+              </button></a
+            >
+            <a
+              class="social-buttons"
+              href="https://linkedin.com/in/daniel-von-boros-92878a186"
+              target="_blank"
+              ><button class="btn btn-dark btn-lg">
+                <span
+                  class="double-size-icon-top fab fa-linkedin"
+                ></span></button
+            ></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="background-div-pink"></div>
+            <img
+              class="title-image"
+              src="mat/profile_pic_webpage_2.png"
+              alt="dvb_portrait"
+            />
+            <div class="background-div-blue"></div>
+          </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <div class='accordion-header cardheader-darkblue' id='headingNine'>
+    </section>
+
+    <!-- EXPERIENCE -->
+
+    <section class="features" id="features">
+      <div class="iconsec-fluid icon-container colored-section">
+        <div class="accordion-item">
+          <div class="accordion-header cardheader-darkblue" id="headingEight">
             <div class="d-grid gap-2">
-            <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
-              <h4 class="text-pink">Education</h4>>
+              <button
+                class="btn collapsed button-label"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseEight"
+                aria-expanded="true"
+                aria-controls="collapseEight"
+              >
+                <h4 class="text-pink">Tech stack</h4>
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            id="collapseEight"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingEight"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="card-body-blue">
+              <div class="stack-icons-container">
+                <img
+                  class="stack-icon"
+                  src="mat/stack/html_p.png"
+                  alt="HTML 5"
+                  title="HTML 5"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/css_p.png"
+                  alt="CSS 3"
+                  title="CSS 3"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/js_p.png"
+                  alt="JavaScript"
+                  title="JavaScript"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/nodejs_p.png"
+                  alt="nodeJS"
+                  title="nodeJS"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/bootstrap_p.png"
+                  alt="Bootstrap"
+                  title="Bootstrap"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/expressjs_p.png"
+                  alt="expressJS"
+                  title="expressJS"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/mongodb_p.png"
+                  alt="mongoDB"
+                  title="mongoDB"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/jquery_p.png"
+                  alt="jQuery"
+                  title="jQuery"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/react_p.png"
+                  alt="reactJS"
+                  title="reactJS"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/angular_p.png"
+                  alt="Angular"
+                  title="Angular"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/ts_p.png"
+                  alt="TypeScript"
+                  title="TypeScript"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/mat_ui_p.png"
+                  alt="Material UI"
+                  title="Material UI"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/git_p.png"
+                  alt="git"
+                  title="git"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/heroku_p.png"
+                  alt="Heroku"
+                  title="Heroku"
+                />
+                <img
+                  class="stack-icon"
+                  src="mat/stack/netlify_p.png"
+                  alt="netlify"
+                  title="netlify"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header cardheader-darkblue" id="headingNine">
+            <div class="d-grid gap-2">
+              <button
+                class="btn collapsed button-label"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseNine"
+                aria-expanded="true"
+                aria-controls="collapseNine"
+              >
+                <h4 class="text-pink">Education</h4>
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            id="collapseNine"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingNine"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="card-body-blue card-grid">
+              <div class="card card-white">
+                <div class="card-header">
+                  <img
+                    class="edu-logo"
+                    src="./mat/experience/CF.png"
+                    alt="careerFoundry"
+                    title="careerFoundry"
+                  />
+                </div>
+                <div class="card-body-white">
+                  <h6>Full Stack Web Development</h6>
+                  <p>React, JavaScript</p>
+                  <p>Angular, TypeScript</p>
+                  <p>HTML, CSS</p>
+                  <p>2021/10 - 2021/04</p>
+                </div>
+              </div>
+              <div class="card card-white">
+                <div class="card-header">
+                  <img
+                    class="edu-logo"
+                    src="./mat/experience/bht.png"
+                    alt="BHT"
+                    title="Berliner Hochschule für Technik"
+                  />
+                </div>
+                <div class="card-body-white">
+                  <h6>Berliner Hochschule für Technik</h6>
+                  <h6>University of Applied Sciences</h6>
+                  <h6>M.Sc. Architecture</h6>
+                  <p>2017/04 - 2014/10</p>
+                </div>
+              </div>
+              <div class="card card-white">
+                <div class="card-header">
+                  <img
+                    class="edu-logo"
+                    src="./mat/experience/hka.png"
+                    alt="HKA"
+                    title="Hochschule Karlsuhe"
+                  />
+                </div>
+                <div class="card-body-white">
+                  <h6>Hochschule Karlsruhe</h6>
+                  <h6>University of Applied Sciences</h6>
+                  <h6>B.A. Architecture</h6>
+                  <p>2014/07 - 2011/10</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header cardheader-darkblue" id="headingTen">
+            <div class="d-grid gap-2">
+              <button
+                class="btn collapsed button-label"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTen"
+                aria-expanded="true"
+                aria-controls="collapseTen"
+              >
+                <h4 class="text-pink">Work experience</h4>
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            id="collapseTen"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingTen"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="card-body-blue card-grid">
+              <div class="card card-white">
+                <div class="card-header">
+                  <img
+                    class="work-logo"
+                    src="./mat/experience/bauart.png"
+                    alt="bauart"
+                    title="Bauart Architekten und Ingenieure"
+                  />
+                </div>
+                <div class="card-body-white">
+                  <h6>Bauart Gruppe</h6>
+                  <h6>Project Manager</h6>
+                  <p>Project Manager in Construction</p>
+                  <p>2021/02 - 2020/05</p>
+                </div>
+              </div>
+              <div class="card card-white">
+                <div class="card-header">
+                  <img
+                    class="work-logo"
+                    src="./mat/experience/vri.png"
+                    alt="von Rüden Immobilien"
+                    title="von Rüden Immobilien"
+                  />
+                </div>
+                <div class="card-body-white">
+                  <h6>Von Rüden Immobilien</h6>
+                  <h6>Department Head Construction</h6>
+                  <p>2019/12 - 2018/10</p>
+                  <p>- - -</p>
+                  <h6>Project Manager</h6>
+                  <p>2018/10-2018/03</p>
+                </div>
+              </div>
+              <div class="card card-white">
+                <div class="card-header">
+                  <img
+                    class="work-logo"
+                    src="./mat/experience/baumeisterhaus.png"
+                    alt="bmh"
+                    title="Baumeister Haus"
+                  />
+                </div>
+                <div class="card-body-white">
+                  <h6>Meisterbau Teltow</h6>
+                  <h6>Construction Manager</h6>
+                  <p>2018/02 - 2017/04</p>
+                  <p>- - -</p>
+                  <h6>Student Intern</h6>
+                  <p>2017/04-2016/02</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carousel -->
+
+    <section id="projects" class="projects white-section">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner container-fluid">
+          <div class="carousel-item active">
+            <img
+              src="./mat/AC6/filmopedia_angular4.jpg"
+              class="d-block w-100"
+              alt="AC6"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC5/talk1.jpg" class="d-block w-100" alt="AC5" />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC4/meet3.jpg" class="d-block w-100" alt="AC4" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./mat/AC6/filmopedia_angular6.jpg"
+              class="d-block w-100"
+              alt="AC6"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC4/meet2.jpg" class="d-block w-100" alt="AC4" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./mat/AC3/filmopedia_react4.jpg"
+              class="d-block w-100"
+              alt="AC3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC5/talk3.jpg" class="d-block w-100" alt="AC5" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./mat/AC6/filmopedia_angular7.jpg"
+              class="d-block w-100"
+              alt="AC6"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC5/talk2.jpg" class="d-block w-100" alt="AC5" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./mat/AC3/filmopedia_react2.jpg"
+              class="d-block w-100"
+              alt="AC3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC1/pokedex1.jpg" class="d-block w-100" alt="AC1" />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC4/meet1.jpg" class="d-block w-100" alt="AC4" />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC1/pokedex2.jpg" class="d-block w-100" alt="AC1" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./mat/AC3/filmopedia_react7.jpg"
+              class="d-block w-100"
+              alt="AC3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC1/pokedex3.jpg" class="d-block w-100" alt="AC1" />
+          </div>
+          <div class="carousel-item">
+            <img src="./mat/AC4/meet3.jpg" class="d-block w-100" alt="AC4" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </section>
+
+    <!-- CARDS -->
+
+    <section class="container-fluid white-section projects">
+      <div class="card-projects">
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-title-logo-2"
+              src="./mat/AC3/filmopediaLogo.png"
+              alt="filmopediaLogo"
+            />
+            <h6 class="card-subtitle">
+              filmOpedia App <span class="fab fa-react"></span>
+              <span class="fab fa-bootstrap"></span>
+            </h6>
+            <p class="card-text">
+              React Application built using the MERN Stack. Styled with
+              Bootstrap. Movie Database
+            </p>
+            <a
+              class="card-link"
+              data-bs-toggle="modal"
+              data-bs-target="#filmopediaReactModal"
+              >Project Description</a
+            >
+            <a
+              href="https://github.com/danielvonboros/filmOpedia"
+              target="_blank"
+              class="card-link"
+              >Code</a
+            >
+            <hr />
+            <a
+              href="https://filmopedia-client.netlify.app"
+              class="card-link"
+              target="_blank"
+              ><b>Get me there</b></a
+            >
+          </div>
         </div>
-        <div id="collapseNine" class="accordion-collapse collapse show" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-          <div class="card-body-blue card-grid">
-            <div class=card>
-              <div class="card-header"><img class="edu-logo" src="./mat/experience/CF.png" alt='careerFoundry' /></div>
-              <div class="card-body-white">
-                <h6>Full Stack Web Development</h6>
-                <p>React, JavaScript</p>
-                <p>Angular, TypeScript</p>
-                <p>HTML, CSS</p>
-                <p>2021/10 - 2021/04</p>
+
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-title-logo-2"
+              src="./mat/AC4/meetLogo.png"
+              alt="meetLogo"
+            />
+            <h6 class="card-subtitle">
+              Meet App <span class="fab fa-react"></span>
+            </h6>
+            <p class="card-text">
+              Serverless TDD React App built with the Google Calendar API.
+              Coding Events calendar
+            </p>
+            <a
+              class="card-link"
+              data-bs-toggle="modal"
+              data-bs-target="#meetModal"
+              >Project Description</a
+            >
+            <a
+              href="https://github.com/danielvonboros/meet"
+              target="_blank"
+              class="card-link"
+              >Code</a
+            >
+            <hr />
+            <a
+              href="https://danielvonboros.github.io/meet"
+              class="card-link"
+              target="_blank"
+              ><b>Get me there</b></a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-title-logo-2"
+              src="./mat/AC3/filmopediaLogo.png"
+              alt="filmopediaLogo"
+            />
+            <h6 class="card-subtitle">
+              filmOpedia App <span class="fab fa-angular"></span> Angular
+            </h6>
+            <p class="card-text">
+              Angular Application built using the MEAN stack. Styled with
+              Material UI. Movie Database
+            </p>
+            <a
+              class="card-link"
+              data-bs-toggle="modal"
+              data-bs-target="#filmopediaAngularModal"
+              >Project Description</a
+            >
+            <a
+              href="https://www.github.com/filmopedia-angular-client"
+              class="card-link"
+              >Code</a
+            >
+            <hr />
+            <a
+              href="https://danielvonboros.github.io/filmopedia-angular-client"
+              class="card-link"
+              target="_blank"
+              ><b>Get me there</b></a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-title-logo-1"
+              src="./mat/AC5/talkLogo.png"
+              alt="talkLogo"
+            />
+            <h6 class="card-subtitle">
+              talk App <span class="fab fa-react"></span
+              ><span class="fas fa-mobile-alt"></span>
+            </h6>
+            <p class="card-text">
+              React Native Application built with Expo. Chat Application
+            </p>
+            <a
+              class="card-link"
+              data-bs-toggle="modal"
+              data-bs-target="#talkModal"
+              >Project Description</a
+            >
+            <a
+              href="https://github.com/danielvonboros/talk"
+              target="_blank"
+              class="card-link"
+              >Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-title-logo-2"
+              src="./mat/AC2/filmopediaApiLogo.png"
+              alt="filmopediaApiLogo"
+            />
+            <h6 class="card-subtitle">
+              filmopedia API <span class="fab fa-node-js"></span>
+            </h6>
+            <p class="card-text">
+              API Backend to Movie Database. Built with Node.js, Express and
+              Mongo DB. Deployed with Heroku
+            </p>
+            <a
+              class="card-link"
+              data-bs-toggle="modal"
+              data-bs-target="#filmopediaApiModal"
+              >Project Description</a
+            >
+            <a
+              href="https://github.com/danielvonboros/filmopedia"
+              target="_blank"
+              class="card-link"
+              >Code</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-title-logo-1"
+              src="./mat/AC1/pokedexLogo.png"
+              alt="pokedexLogo"
+            />
+            <h6 class="card-subtitle">
+              pokéDex App <span class="fab fa-js-square"></span>
+              <span class="fab fa-bootstrap"></span>
+            </h6>
+            <p class="card-text">
+              JavaScript Single Page app based on the PokeAPI. Styled with
+              Bootstrap. Pokedex Application
+            </p>
+            <a
+              class="card-link"
+              data-bs-toggle="modal"
+              data-bs-target="#pokedexModal"
+              >Project Description</a
+            >
+            <a
+              href="https://github.com/danielvonboros/pokeDex"
+              target="_blank"
+              class="card-link"
+              >Code</a
+            >
+            <hr />
+            <a
+              href="https://danielvonboros.github.io/pokeDex"
+              class="card-link"
+              target="_blank"
+              ><b>Get me there</b></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- MODALS -->
+
+      <!-- filmOpedia React Modal -->
+      <div
+        class="modal fade modal-fullscreen-xxl-down"
+        id="filmopediaReactModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen-xxl-down">
+          <div class="modal-content">
+            <div class="modal-header modal-header-darkblue">
+              <img
+                class="card-title-logo-light-2"
+                src="./mat/AC3/filmopediaReactLogoRosa.png"
+                alt="filmopediaReactLogo"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div
+                id="filmopediaReactCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner carousel-small">
+                  <div class="carousel-item active">
+                    <img
+                      src="./mat/AC3/filmopedia_react1s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-react-image-1"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC3/filmopedia_react2s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-react-image-2"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC3/filmopedia_react3s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-react-image-3"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC3/filmopedia_react4s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-react-image-4"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC3/filmopedia_react5s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-react-image-5"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC3/filmopedia_react6s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-react-image-6"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC3/filmopedia_react7s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-react-image-7"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#filmopediaReactCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#filmopediaReactCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
-            <div class=card>
-              <div class="card-header"><img class="edu-logo" src="./mat/experience/bht.png" alt='BHT' /></div>
-              <div class="card-body-white">
-                <h6>Berliner Hochschule für Technik</h6>
-                <h6>University of Applied Sciences</h6>
-                <h6>M.Sc. Architecture</h6>
-                <p>2017/04 - 2014/10</p>
-              </div>
+            <div class="modal-card-footer">
+              <img
+                class="card-title-logo-2"
+                src="./mat/AC3/filmopediaReactLogo.png"
+                alt="filmopediaLogo"
+              />
+              <h6 class="card-subtitle">
+                filmOpedia App <span class="fab fa-react"></span>
+                <span class="fab fa-bootstrap"></span>
+              </h6>
+              <p class="card-text">
+                React Application built using the MERN Stack. Styled with
+                Bootstrap. Movie Database
+              </p>
+              <a
+                href="https://github.com/danielvonboros/filmOpedia-client/blob/main/README.md"
+                class="card-link"
+                >Project Description</a
+              >
+              <a
+                href="https://github.com/danielvonboros/filmOpedia-client"
+                target="_blank"
+                class="card-link"
+                >Code</a
+              >
+              <br />
+              <a
+                href="https://filmopedia-client.netlify.app"
+                class="card-link"
+                target="_blank"
+                ><b>Get me there</b></a
+              >
             </div>
-            <div class=card>
-              <div class="card-header"><img class="edu-logo" src="./mat/experience/hka.png" alt='HKA' /></div>
-              <div class="card-body-white">
-                <h6>Hochschule Karlsruhe</h6>
-                <h6>University of Applied Sciences</h6>
-                <h6>B.A. Architecture</h6>
-                <p>2014/07 - 2011/10</p>
-              </div>
+
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <div class='accordion-header cardheader-darkblue' id='headingTen'>
-            <div class="d-grid gap-2">
-            <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-              <h4 class="text-pink">Work experience</h4>>
-        </button>
-      </div>
-        </div>
-        <div id="collapseTen" class="accordion-collapse collapse show" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-          <div class="card-body-blue card-grid">
-            <div class=card>
-              <div class="card-header"><img class="work-logo" src="./mat/experience/bauart.png" alt='bauart' /></div>
-              <div class="card-body-white">
-                <h6>Bauart Gruppe</h6>
-                <h6>Project Manager</h6>
-                <p>Project Manager in Construction</p>
-                <p>2021/02 - 2020/05</p>
+
+      <!-- meet Modal -->
+
+      <div
+        class="modal fade modal-fullscreen-xxl-down"
+        id="meetModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen-xxl-down">
+          <div class="modal-content">
+            <div class="modal-header modal-header-darkblue">
+              <img
+                class="card-title-logo-light-2"
+                src="./mat/AC4/meetLogoRosa.png"
+                alt="meetLogo"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div
+                id="meetCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner carousel-small">
+                  <div class="carousel-item active">
+                    <img
+                      src="./mat/AC4/meet1s.jpg"
+                      class="d-block w-100"
+                      alt="meet-image-1"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC4/meet2s.jpg"
+                      class="d-block w-100"
+                      alt="meet-image-2"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC4/meet3s.jpg"
+                      class="d-block w-100"
+                      alt="meet-image-3"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC4/meet4s.jpg"
+                      class="d-block w-100"
+                      alt="meet-image-4"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#meetCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#meetCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
-            <div class=card>
-              <div class="card-header"><img class="work-logo" src="./mat/experience/vri.png" alt='bauart' /></div>
-            <div class="card-body-white">
-              <h6>Von Rüden Immobilien</h6>
-              <h6>Department Head Construction</h6>
-              <p>2019/12 - 2018/10</p>
-              <p>- - -</p>
-              <h6>Project Manager</h6>
-              <p>2018/10-2018/03</p>
+            <div class="modal-card-footer">
+              <img
+                class="card-title-logo-2"
+                src="./mat/AC4/meetLogo.png"
+                alt="meetLogo"
+              />
+              <h6 class="card-subtitle">
+                Meet App <span class="fab fa-react"></span>
+              </h6>
+              <p class="card-text">
+                Serverless TDD React App built with the Google Calendar API.
+                Coding Events calendar
+              </p>
+              <a
+                href="https://github.com/danielvonboros/meet/blob/main/README.md"
+                class="card-link"
+                >Project Description</a
+              >
+              <a
+                href="https://github.com/danielvonboros/meet"
+                target="_blank"
+                class="card-link"
+                >Code</a
+              >
+              <br />
+              <a
+                href="https://danielvonboros.github.io/meet"
+                class="card-link"
+                target="_blank"
+                ><b>Get me there</b></a
+              >
             </div>
-          </div>
-            <div class=card>
-              <div class="card-header"><img class="work-logo" src="./mat/experience/baumeisterhaus.png" alt='bmh' /></div>
-            <div class="card-body-white">
-              <h6>Meisterbau Teltow</h6>
-              <h6>Construction Manager</h6>
-              <p>2018/02 - 2017/04</p>
-              <p>- - -</p>
-              <h6>Student Intern</h6>
-              <p>2017/04-2016/02</p>
-            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>
       </div>
-        
-    </div>
 
-  </section>
+      <!-- filmopedia Angular Modal -->
 
-
-  <!-- Carousel -->
-
-  <section id='projects' class="projects white-section">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner container-fluid">
-        <div class="carousel-item active">
-          <img src="./mat/AC6/filmopedia_angular4.jpg" class="d-block w-100" alt="AC6">
-        </div>
-        <div class="carousel-item">
-          <img src="./mat/AC5/talk1.jpg" class="d-block w-100" alt="AC5">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC4/meet3.jpg" class="d-block w-100" alt="AC4">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC6/filmopedia_angular6.jpg" class="d-block w-100" alt="AC6">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC4/meet2.jpg" class="d-block w-100" alt="AC4">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC3/filmopedia_react4.jpg" class="d-block w-100" alt="AC3">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC5/talk3.jpg" class="d-block w-100" alt="AC5">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC6/filmopedia_angular7.jpg" class="d-block w-100" alt="AC6">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC5/talk2.jpg" class="d-block w-100" alt="AC5">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC3/filmopedia_react2.jpg" class="d-block w-100" alt="AC3">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC1/pokedex1.jpg" class="d-block w-100" alt="AC1">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC4/meet1.jpg" class="d-block w-100" alt="AC4">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC1/pokedex2.jpg" class="d-block w-100" alt="AC1">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC3/filmopedia_react7.jpg" class="d-block w-100" alt="AC3">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC1/pokedex3.jpg" class="d-block w-100" alt="AC1">
-        </div>
-        <div class="carousel-item ">
-          <img src="./mat/AC4/meet3.jpg" class="d-block w-100" alt="AC4">
+      <div
+        class="modal fade modal-fullscreen-xxl-down"
+        id="filmopediaAngularModal"
+        tabindex="-1"
+        aria-labelledby="filmopediaAngularModal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen-xxl-down">
+          <div class="modal-content">
+            <div class="modal-header modal-header-darkblue">
+              <img
+                class="card-title-logo-light-2"
+                src="./mat/AC6/filmopediaAngularLogoRosa.png"
+                alt="filmOpediaAngularLogo"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div
+                id="filmopediaAngularCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner carousel-small">
+                  <div class="carousel-item active">
+                    <img
+                      src="./mat/AC6/filmopedia_angular1s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-angular-image-1"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC6/filmopedia_angular2s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-angular-image-2"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC6/filmopedia_angular3s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-angular-image-3"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC6/filmopedia_angular4s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-angular-image-4"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC6/filmopedia_angular5s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-angular-image-5"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC6/filmopedia_angular6s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-angular-image-6"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC6/filmopedia_angular7s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-angular-image-7"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC6/filmopedia_angular8s.jpg"
+                      class="d-block w-100"
+                      alt="filmopedia-angular-image-8"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#filmopediaAngularCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#filmopediaAngularCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="modal-card-footer">
+              <img
+                class="card-title-logo-2"
+                src="./mat/AC6/filmopediaAngularLogo.png"
+                alt="filmopediaAngularLogo"
+              />
+              <h6 class="card-subtitle">
+                filmOpedia App <span class="fab fa-angular"></span> Angular
+              </h6>
+              <p class="card-text">
+                Angular Application built using the MEAN stack. Movie Database.
+                Styled with Material UI.
+              </p>
+              <p class="card-text">
+                Written in TypeScript, Live version available
+              </p>
+              <a
+                href="https://github.com/danielvonboros/filmopedia-angular-client/blob/master/README.md"
+                class="card-link"
+                >Project Description</a
+              >
+              <a
+                href="https://github.com/danielvonboros/filmopedia-angular-client"
+                class="card-link"
+                >Code</a
+              >
+              <br />
+              <a
+                href="https://danielvonboros.github.io/filmopedia-angular-client"
+                class="card-link"
+                target="_blank"
+                ><b>Get me there</b></a
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+
+      <!-- talk Modal -->
+
+      <div
+        class="modal fade modal-fullscreen-xxl-down"
+        id="talkModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen-xxl-down">
+          <div class="modal-content">
+            <div class="modal-header modal-header-darkblue">
+              <img
+                class="card-title-logo-light-2"
+                src="./mat/AC5/talkLogoRosa.png"
+                alt="talkLogo"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div
+                id="talkCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner carousel-small">
+                  <div class="carousel-item active">
+                    <img
+                      src="./mat/AC5/talk1s.jpg"
+                      class="d-block w-100"
+                      alt="talk-image-1"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC5/talk2s.jpg"
+                      class="d-block w-100"
+                      alt="talk-image-2"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC5/talk3s.jpg"
+                      class="d-block w-100"
+                      alt="talk-image-3"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#talkCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#talkCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="modal-card-footer">
+              <img
+                class="card-title-logo-1"
+                src="./mat/AC5/talkLogo.png"
+                alt="talkLogo"
+              />
+              <h6 class="card-subtitle">
+                talk App <span class="fab fa-react"></span
+                ><span class="fas fa-mobile-alt"></span>
+              </h6>
+              <p class="card-text">
+                React Native Application built with Expo. Chat Application
+              </p>
+              <a
+                href="https://github.com/danielvonboros/talk/blob/main/README.md"
+                class="card-link"
+                >Project Description</a
+              >
+              <a
+                href="https://github.com/danielvonboros/talk"
+                target="_blank"
+                class="card-link"
+                >Code</a
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- filmopedia Backend Modal -->
+
+      <div
+        class="modal fade modal-fullscreen-xxl-down"
+        id="filmopediaApiModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen-xxl-down">
+          <div class="modal-content">
+            <div class="modal-header modal-header-darkblue">
+              <img
+                class="card-title-logo-light-2"
+                src="./mat/AC5/talkLogoRosa.png"
+                alt="talkLogo"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div
+                id="filmopediaApiCarousel"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner carousel-small">
+                  <div class="carousel-item active">
+                    <img
+                      src="./mat/AC2/filmopedia_api1s.jpg"
+                      class="d-block w-100"
+                      alt="pokedex-image-1"
+                    />
+                  </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#filmopediaApiCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#filmopediaApiCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-  </section>
-
-  
-
-
-  <section class="projects">
-
-<!-- ACCORDION-->
-  
-  <div class="accordion" id="accordionExample">
-    <div class="accordion-item cardheader-darkblue projects-intro">
-      <h6>▽ Click to expand projects ▽</h6>
-    </div>
-    <!-- ORDER #1 -->
-    <div class="accordion-item">
-      <div class='accordion-header cardheader-darkblue' id='headingOne'>
-          <div class="d-grid gap-2">
-          <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            <img class="card-title-logo-light-2" src="./mat/AC3/filmopediaReactLogoRosa.png" alt="filmopediaReactLogo">
-      </button>
-    </div>
-      </div>
-      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="card-body">
-          <div id="carouselExampleControls-2" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner carousel-small">
-              <div class="carousel-item active">
-                <img src="./mat/AC3/filmopedia_react1s.jpg" class="d-block w-100" alt="filmopedia-react-image-1">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC3/filmopedia_react2s.jpg" class="d-block w-100" alt="filmopedia-react-image-2">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC3/filmopedia_react3s.jpg" class="d-block w-100" alt="filmopedia-react-image-3">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC3/filmopedia_react4s.jpg" class="d-block w-100" alt="filmopedia-react-image-4">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC3/filmopedia_react5s.jpg" class="d-block w-100" alt="filmopedia-react-image-5">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC3/filmopedia_react6s.jpg" class="d-block w-100" alt="filmopedia-react-image-6">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC3/filmopedia_react7s.jpg" class="d-block w-100" alt="filmopedia-react-image-7">
+      </button> -->
+                <!-- No buttons because just one image-->
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="modal-card-footer">
+              <img
+                class="card-title-logo-2"
+                src="./mat/AC2/filmopediaApiLogo.png"
+                alt="filmopediaApiLogo"
+              />
+              <h6 class="card-subtitle">filmOpedia API</h6>
+              <p class="card-text">
+                API Backend to Movie Database. Built with Node.js, Express and
+                Mongo DB. Deployed with Heroku
+              </p>
+              <a
+                href="https://github.com/danielvonboros/filmOpedia/blob/main/README.md"
+                class="card-link"
+                >Project Description</a
+              >
+              <a
+                href="https://github.com/danielvonboros/filmopedia"
+                class="card-link"
+                >Code</a
+              >
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
           </div>
         </div>
-      <div class="card-footer">
-        <img class="card-title-logo-2" src="./mat/AC3/filmopediaLogo.png" alt="filmopediaLogo">
-        <h6 class="card-subtitle">filmOpedia App <span class="fab fa-react"></span> <span class="fab fa-bootstrap"></span></h6>
-        <p class="card-text">React Application built using the MERN Stack. Styled with Bootstrap. Movie Database</p>
-        <a href="https://github.com/danielvonboros/filmOpedia-client/blob/main/README.md" class="card-link">Project Description</a>
-        <a href="https://github.com/danielvonboros/filmOpedia-client" target="_blank" class="card-link">Code</a>
-        <hr>
-        <a href="https://filmopedia-client.netlify.app" class="card-link" target="_blank"><b>Get me there</b></a> 
       </div>
-    </div>
-    </div>
 
-    <!-- ORDER #2 -->
-    <div class="accordion-item">
-      <div class='accordion-header cardheader-darkblue' id='headingTwo'>
-          <div class="d-grid gap-2">
-          <button class="btn collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-            <img class="card-title-logo-light-2" src="./mat/AC4/meetLogoRosa.png" alt="meetLogo">
-      </button>
-    </div>
-      </div>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="card-body">
-          <div id="carouselExampleControls-3" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner carousel-small">
-              <div class="carousel-item active">
-                <img src="./mat/AC4/meet1s.jpg" class="d-block w-100" alt="meet-image-1">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC4/meet2s.jpg" class="d-block w-100" alt="meet-image-2">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC4/meet3s.jpg" class="d-block w-100" alt="meet-image-3">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC4/meet4s.jpg" class="d-block w-100" alt="meet-image-4">
+      <!-- pokemon Modal -->
+
+      <div
+        class="modal fade modal-fullscreen-xxl-down"
+        id="pokedexModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen-xxl-down">
+          <div class="modal-content">
+            <div class="modal-header modal-header-darkblue">
+              <img
+                class="card-title-logo-light-2"
+                src="./mat/AC1/pokedexLogoRosa.png"
+                alt="pokeDexLogo"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div
+                id="pokedexCarousel"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner carousel-small">
+                  <div class="carousel-item active">
+                    <img
+                      src="./mat/AC1/pokedex1s.jpg"
+                      class="d-block w-100"
+                      alt="pokedex-image-1"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC1/pokedex2s.jpg"
+                      class="d-block w-100"
+                      alt="pokedex-image-2"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./mat/AC1/pokedex3s.jpg"
+                      class="d-block w-100"
+                      alt="pokedex-image-3"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#pokedexCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#pokedexCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-3" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-3" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      <div class="card-footer">
-        <img class="card-title-logo-2" src="./mat/AC4/meetLogo.png" alt="meetLogo">
-        <h6 class="card-subtitle">Meet App <span class="fab fa-react"></span></h6>
-        <p class="card-text">Serverless TDD React App built with the Google Calendar API. Coding Events calendar</p>
-        <a href="https://github.com/danielvonboros/meet/blob/main/README.md" class="card-link">Project Description</a>
-        <a href="https://github.com/danielvonboros/meet" target="_blank" class="card-link">Code</a>
-        <hr>
-        <a href="https://danielvonboros.github.io/meet" class="card-link" target="_blank"><b>Get me there</b></a> 
-      </div>
-      </div>
-    </div>
-
-    <!-- ORDER #3 -->
-    <div class="accordion-item">
-      <div class='accordion-header cardheader-darkblue' id='headingThree'>
-          <div class="d-grid gap-2">
-          <button class="btn collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-            <img class="card-title-logo-light-2" src="./mat/AC6/filmopediaAngularLogoRosa.png" alt="filmopediaAngularLogo">
-      </button>
-    </div>
-      </div>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-        <div class="card-body">
-          <div id="carouselExampleControls-4" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner carousel-small">
-              <div class="carousel-item active">
-                <img src="./mat/AC6/filmopedia_angular1s.jpg" class="d-block w-100" alt="filmopedia-angular-image-1">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC6/filmopedia_angular2s.jpg" class="d-block w-100" alt="filmopedia-angular-image-2">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC6/filmopedia_angular3s.jpg" class="d-block w-100" alt="filmopedia-angular-image-3">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC6/filmopedia_angular4s.jpg" class="d-block w-100" alt="filmopedia-angular-image-4">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC6/filmopedia_angular5s.jpg" class="d-block w-100" alt="filmopedia-angular-image-5">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC6/filmopedia_angular6s.jpg" class="d-block w-100" alt="filmopedia-angular-image-6">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC6/filmopedia_angular7s.jpg" class="d-block w-100" alt="filmopedia-angular-image-7">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC6/filmopedia_angular8s.jpg" class="d-block w-100" alt="filmopedia-angular-image-8">
-              </div>
+            <div class="modal-card-footer">
+              <img
+                class="card-title-logo-1"
+                src="./mat/AC1/pokedexLogo.png"
+                alt="pokedexLogo"
+              />
+              <h6 class="card-subtitle">
+                pokéDex App <span class="fab fa-js-square"></span>
+                <span class="fab fa-bootstrap"></span>
+              </h6>
+              <p class="card-text">
+                JavaScript Single Page app based on the PokeAPI. Styled with
+                Bootstrap. Pokedex Application
+              </p>
+              <a
+                href="https://github.com/danielvonboros/pokeDex/blob/main/README.md"
+                class="card-link"
+                >Project Description</a
+              >
+              <a
+                href="https://github.com/danielvonboros/pokeDex"
+                target="_blank"
+                class="card-link"
+                >Code</a
+              >
+              <br />
+              <a
+                href="https://danielvonboros.github.io/pokeDex"
+                class="card-link"
+                target="_blank"
+                ><b>Get me there</b></a
+              >
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-4" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-4" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      <div class="card-footer">
-        <img class="card-title-logo-2" src="./mat/AC6/filmopediaAngularLogo.png" alt="filmopediaAngularLogo">
-        <h6 class="card-subtitle">filmOpedia App <span class="fab fa-angular"></span> Angular</h6>
-        <p class="card-text">Angular Application built using the MEAN stack. Movie Database. Styled with Material UI.</p>
-        <p class="card-text">Written in TypeScript, Live version available</p>
-        <a href="https://github.com/danielvonboros/filmopedia-angular-client/blob/master/README.md" class="card-link">Project Description</a>
-        <a href="https://github.com/danielvonboros/filmopedia-angular-client" class="card-link">Code</a>
-        <hr>
-        <a href="https://danielvonboros.github.io/filmopedia-angular-client" class="card-link" target="_blank"><b>Get me there</b></a>
-      </div>
-    </div>
-  </div>
-  
-
-    <!-- ORDER #4 -->
-    <div class="accordion-item">
-      <div class='accordion-header cardheader-darkblue' id='headingFour'>
-          <div class="d-grid gap-2">
-          <button class="btn collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-            <img class="card-title-logo-light-1" src="./mat/AC5/talkLogoRosa.png" alt="talkLogo">
-      </button>
-    </div>
-      </div>
-      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-        <div class="card-body">
-          <div id="carouselExampleControls-5" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner carousel-small">
-              <div class="carousel-item active">
-                <img src="./mat/AC5/talk1s.jpg" class="d-block w-100" alt="talk-image-1">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC5/talk2s.jpg" class="d-block w-100" alt="talk-image-2">
-              </div>
-              <div class="carousel-item">
-                <img src="./mat/AC5/talk3s.jpg" class="d-block w-100" alt="talk-image-3">
-              </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-5" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-5" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
-          <div class="card-footer">
-            <img class="card-title-logo-1" src="./mat/AC5/talkLogo.png" alt="talkLogo">
-        <h6 class="card-subtitle">talk App <span class="fab fa-react"></span><span class="fas fa-mobile-alt"></span></h6>
-        <p class="card-text">React Native Application built with Expo. Chat Application</p>
-        <a href="https://github.com/danielvonboros/talk/blob/main/README.md" class="card-link">Project Description</a>
-        <a href="https://github.com/danielvonboros/talk" target="_blank" class="card-link">Code</a>
       </div>
-    </div>
-    </div>
-  </div>
-  
-  <!-- ORDER #5 -->
-  <div class="accordion-item">
-    <div class='accordion-header cardheader-darkblue' id='headingFive'>
-        <div class="d-grid gap-2">
-        <button class="btn collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-          <img class="card-title-logo-light-2" src="./mat/AC2/filmopediaApiLogoRosa.png" alt="filmopediaApiLogo">
-    </button>
-  </div>
-    </div>
-    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-    <div class="card-body">
-      <div id="carouselExampleControls-6" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner carousel-small">
-          <div class="carousel-item active">
-            <img src="./mat/AC2/filmopedia_api1s.jpg" class="d-block w-100" alt="pokedex-image-1">
-          </div>
+
+      <a href="https://github.com/danielvonboros" target="_blank"
+        ><button class="btn-margin-top btn btn-outline-dark">
+          Visit GitHub for the code
+        </button></a
+      >
+    </section>
+
+    <div></div>
+    <!-- Call to Action -->
+
+    <section class="colored-section iconsec-fluid icon-section" id="cta">
+      <div class="row">
+        <div class="col-lg-6 text-sec2">
+          <a class="cta-link" href="./public/danielvonboros_cv_en.pdf" download
+            ><span class="cta-link far fa-file icon-sec3"></span>
+            <h3>My CV</h3>
+            <p>Find a copy of my CV here</p></a
+          >
         </div>
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button> --> 
-        <!-- No buttons because just one image-->
-      </div>
-    </div>
-      <div class="card-footer">
-        <img class="card-title-logo-2" src="./mat/AC2/filmopediaApiLogo.png" alt="filmopediaApiLogo">
-      <h6 class="card-subtitle">filmOpedia API</h6>
-      <p class="card-text">API Backend to Movie Database. Built with Node.js, Express and Mongo DB. Deployed with Heroku</p>
-      <a href="https://github.com/danielvonboros/filmOpedia/blob/main/README.md" class="card-link">Project Description</a>
-      <a href="https://github.com/danielvonboros/filmopedia" class="card-link">Code</a>
-    </div>
-    </div>
-  </div>
-
-  <!-- ORDER #6 -->
-  <div class="accordion-item">
-    <div class='accordion-header cardheader-darkblue' id='headingSix'>
-        <div class="d-grid gap-2">
-        <button class="btn collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-      <img class="card-title-logo-light-1" src="./mat/AC1/pokedexLogoRosa.png" alt="pokedexLogo">
-    </button>
-  </div>
-    </div>
-    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-    <div class="card-body">
-      <div id="carouselExampleControls-7" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner carousel-small">
-          <div class="carousel-item active">
-            <img src="./mat/AC1/pokedex1s.jpg" class="d-block w-100" alt="pokedex-image-1">
-          </div>
-          <div class="carousel-item">
-            <img src="./mat/AC1/pokedex2s.jpg" class="d-block w-100" alt="pokedex-image-2">
-          </div>
-          <div class="carousel-item">
-            <img src="./mat/AC1/pokedex3s.jpg" class="d-block w-100" alt="pokedex-image-3">
-          </div>
+        <div class="col-lg-6 text-sec2">
+          <a
+            class="cta-link"
+            href="mailto:danielvonboros@gmail.com?&subject=Contact%20via%20portfolio%20page&body=Sent%20via%20Contact%20Button%20on%20website"
+            ><span class="cta-link fas fa-envelope icon-sec3"></span>
+            <h3>Contact me</h3>
+            <p>Get in touch</p></a
+          >
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-7" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-7" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-    <div class="card-footer">
-      <img class="card-title-logo-1" src="./mat/AC1/pokedexLogo.png" alt="pokedexLogo">
-      <h6 class="card-subtitle">pokéDex App <span class="fab fa-js-square"></span> <span class="fab fa-bootstrap"></span></h6>
-      <p class="card-text">JavaScript Single Page app based on the PokeAPI. Styled with Bootstrap. Pokedex Application</p>
-      <a href="https://github.com/danielvonboros/pokeDex/blob/main/README.md" class="card-link">Project Description</a>
-      <a href="https://github.com/danielvonboros/pokeDex" target="_blank" class="card-link">Code</a>
-      <hr>
-      <a href="https://danielvonboros.github.io/pokeDex" class="card-link" target="_blank"><b>Get me there</b></a> 
-    </div>
-  </div>
-  </div>
+    </section>
 
-  <a href='https://github.com/danielvonboros' target='_blank'><button class="btn-margin-top btn btn-outline-dark" >Visit GitHub for the code</button></a>
-  </section>
+    <a class="btn-back-to-top nav-link" href="#navbar">△</a>
 
-<div></div>
-  <!-- Call to Action -->
+    <!-- Footer -->
 
-  <section class="colored-section iconsec-fluid icon-section" id="cta">
-    <div class="row">
-    <div class="col-lg-6 text-sec2">
-      <a class="cta-link" href="./public/danielvonboros_cv_en.pdf" target="_blank"><span class="cta-link far fa-file icon-sec3"></span>
-      <h3>My CV</h3>
-      <p>Find a copy of my CV here</p></a>
-    </div>
-    <div class="col-lg-6 text-sec2">
-      <a class="cta-link "href="mailto:danielvonboros@gmail.com?&subject=Contact%20via%20portfolio%20page&body=Sent%20via%20Contact%20Button%20on%20website"><span class="cta-link fas fa-envelope icon-sec3"></span>
-      <h3>Contact me</h3>
-      <p>Get in touch</p></a>
-    </div>
-  </div>
-  
-
-  </section>
-
-  <a class='btn-back-to-top nav-link' href="#navbar">△</a>
-
-
-  <!-- Footer -->
-
-  <footer id="footer">
-    <div class="cta-fluid">
-      <br>
-      <h3>social</h3>
-      <br>
-      <a class="social-buttons" href='https://linkedin.com/in/daniel-von-boros-92878a186' target='_blank'><span class="double-size-icon fab fa-linkedin"></span></a>
-      <span style="color: lightgrey;" class="double-size-icon fab fa-xing-square"></span>
-      <a class="social-buttons" href='https://github.com/danielvonboros' target='_blank'><span class="double-size-icon fab fa-github"></span></a>
-      <a class="social-buttons" href="https://medium.com/@danielvonboros" target="_blank"><span class="double-size-icon fab fa-medium-m"></span></a>
-      <a class="social-buttons" href="https://twitter.com/danielvonboros" target="_blank"><span class="double-size-icon fab fa-twitter-square"></span></a>
-      <a class="social-buttons" href="https://www.instagram.com/dnlsrb/" target="_blank"><span class="double-size-icon fab fa-instagram"></span></a>
-      <a class="social-buttons" href='mailto:danielvonboros@gmail.com?&subject=Contact%20via%20portfolio%20page&body=Sent%20via%20Contact%20Button%20on%20website'><span class="double-size-icon fas fa-envelope"></span></a>
-      <br>
-      <br>
-      <p>© Copyright 2021 Daniel von Boros</p>
-    </div>
-  </footer>
-
-</body>
-
+    <footer id="footer">
+      <div class="cta-fluid">
+        <br />
+        <h3>social</h3>
+        <br />
+        <a
+          class="social-buttons"
+          href="https://linkedin.com/in/daniel-von-boros-92878a186"
+          target="_blank"
+          ><span class="double-size-icon fab fa-linkedin"></span
+        ></a>
+        <span
+          style="color: lightgrey"
+          class="double-size-icon fab fa-xing-square"
+        ></span>
+        <a
+          class="social-buttons"
+          href="https://github.com/danielvonboros"
+          target="_blank"
+          ><span class="double-size-icon fab fa-github"></span
+        ></a>
+        <a
+          class="social-buttons"
+          href="https://medium.com/@danielvonboros"
+          target="_blank"
+          ><span class="double-size-icon fab fa-medium-m"></span
+        ></a>
+        <a
+          class="social-buttons"
+          href="https://twitter.com/danielvonboros"
+          target="_blank"
+          ><span class="double-size-icon fab fa-twitter-square"></span
+        ></a>
+        <a
+          class="social-buttons"
+          href="https://www.instagram.com/dnlsrb/"
+          target="_blank"
+          ><span class="double-size-icon fab fa-instagram"></span
+        ></a>
+        <a
+          class="social-buttons"
+          href="mailto:danielvonboros@gmail.com?&subject=Contact%20via%20portfolio%20page&body=Sent%20via%20Contact%20Button%20on%20website"
+          ><span class="double-size-icon fas fa-envelope"></span
+        ></a>
+        <br />
+        <br />
+        <p>© Copyright 2021 Daniel von Boros</p>
+      </div>
+    </footer>
+  </body>
 </html>
