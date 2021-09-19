@@ -253,6 +253,13 @@ h6 {
   justify-self: center;
 }
 
+.my-story {
+  font-size: 1.25em;
+  color: #1b064c;
+  max-width: 80%;
+  margin: 10px auto;
+}
+
 /*********** PROJECTS SECTION ************/
 
 .projects {
@@ -327,8 +334,9 @@ h6 {
   color: #f72684;
 }
 
-.card {
+.card-lightblue {
   background-color: #eceffd;
+  min-height: 370px;
 }
 
 .card-projects {
@@ -377,7 +385,25 @@ h6 {
   background-color: white;
 }
 
+.modal-body-bright {
+  background-color: white;
+}
+
+.case-study-text {
+  max-width: 60%;
+  margin: 10px auto;
+}
+
+.case-study-pic {
+  max-width: 40%;
+  margin: 10px auto;
+}
+
 /************* CTA SECTION **************/
+
+.iconsec-fluid-lower {
+  padding: 5% 15%;
+}
 
 .cta-link {
   color: #f72684;
