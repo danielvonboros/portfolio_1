@@ -449,7 +449,7 @@ h6 {
 
 /************ ID SELECTORS *************/
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .title {
     text-align: center;
   }
